@@ -76,7 +76,7 @@
             rgba(40, 99, 89, 0.402) 80%,
             rgba(53, 118, 150, 0.155) 100%
         );
-        border-color: rgb(126, 160, 159);
+        border-color: rgb(255, 255, 255);
         }
     
         .card:hover {
@@ -180,7 +180,7 @@
 
     .btn:hover{
         box-shadow: 0 1px 4px rgba(169, 229, 236, 0.913), 0 0 40px rgb(147, 179, 197);
-        background-color: rgb(62, 121, 139);
+        background-color: rgba(91, 144, 158, 0.433);
         color: rgb(255, 255, 255);
-        border-color: rgb(73, 145, 159);
+        border-color: rgb(255, 255, 255);
     }
