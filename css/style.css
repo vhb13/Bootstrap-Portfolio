@@ -5,7 +5,7 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Georgia' , 'Georgia', 'Georgia', 'Georgia','Georgia', sans-serif;
     line-height: 1.5;
   }
   
@@ -32,7 +32,7 @@
     /*Navbar ---*/
     .navbar {
       padding-top: 15px;
-      font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+      font-family: 'Georgia', 'Georgia', 'Georgia', 'Georgia', sans-serif;
       font-size: 15px; 
     }
   
@@ -42,17 +42,29 @@
     }
   
     li:hover {
-      box-shadow: inset 20px 20px 20px rgba(9, 121, 9, 0.45);
+      box-shadow: inset 20px 20px 20px rgba(97, 175, 183, 0.26);
+      border-radius: 15px;
     }
   
   /*Jumbotron ----- */
   .jumbotron {
-    background-image: url(../images/gradient-green.jpg);
+    background-image: url(../images/wavy.gif);
     background-size:cover;
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 90%;
+  }
+
+  .display-4 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+
+  .lead {
+    color: rgb(255, 255, 255);
+    size: 5px;
   }
   
   /* Main Sections  ------*/
@@ -61,14 +73,19 @@
     .card {
         margin-bottom: 40px;
         background-image: linear-gradient(
-            rgba(89, 142, 65, 0.3) 80%,
-            rgba(53, 118, 150, 0.6) 100%
+            rgba(40, 99, 89, 0.402) 80%,
+            rgba(53, 118, 150, 0.155) 100%
         );
+        border-color: rgb(126, 160, 159);
         }
     
         .card:hover {
-        box-shadow: inset 0px 0px 10px rgba(6, 149, 6, 0.749), 0 0 10px rgba(37, 68, 118, 0.91);
+        box-shadow: inset 0px 0px 10px rgba(60, 137, 153, 0.273), 0px 0px 10px rgba(48, 86, 107, 0.422);
         }
+        
+    .card-title, .card-text {
+      color:rgb(255, 255, 255);
+    }
         
     h2,.center {
             display: block;
@@ -120,6 +137,7 @@
     margin-right: auto;
     width: 50%;
     margin-bottom: 40px;
+    opacity: 75%;
     }
 
     #aboutdescription {
@@ -144,7 +162,7 @@
       -moz-box-shadow: 0 1px 4px rgba (0,0,0,0.3);
       box-shadow: 0 1px 4px rgba (0,0,0,0.1), 0 0 40px rgba(0,0,0,0.1);
       background-image: linear-gradient(
-        rgba(89, 142, 65, 0.3) 10%,
+        rgba(65, 142, 129, 0.3) 80%,
         rgba(53, 118, 150, 0.6) 100%
         );
     }
@@ -155,11 +173,14 @@
   
     .btn {
         margin-top: 10px;
-        background:rgb(47, 47, 47);
+        background:rgb(255, 255, 255);
+        color: rgb(75, 133, 139);
+        border-color: aliceblue;
     }
 
     .btn:hover{
-        box-shadow: 0 1px 4px rgba(65, 172, 87, 0.913), 0 0 40px rgb(23, 102, 148);
-        background-color: white;
-        color: olive;
+        box-shadow: 0 1px 4px rgba(169, 229, 236, 0.913), 0 0 40px rgb(147, 179, 197);
+        background-color: rgb(62, 121, 139);
+        color: rgb(255, 255, 255);
+        border-color: rgb(73, 145, 159);
     }
